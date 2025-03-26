@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Azka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="pemrograman-web.html">Pemrograman Web</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="contact">
+        <hr>
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:azkaa5681@gmail.com">azkaa5681@gmail.com</a></p>
+        <p>Phone: <a href="tel:+6283804690005">+62 8380-4690-005</a></p>
+        <hr>
+    </section>
+
+    <section class="contact-form">
+        <h2>Hubungi Saya</h2>
+        <form action="contact.php" method="post">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subjek:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright &copy; 2025 Azka.</p>
+    </footer>
+
+</body>
+</html>
